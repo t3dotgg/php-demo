@@ -5,6 +5,7 @@
     }
   },
   "routes": [
+    { "src": "/youtubers", "dest": "/api/good-youtubers.php" },
     { "src": "/(.*)", "dest": "/api/index.php" }
   ]
 }
